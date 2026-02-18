@@ -4,8 +4,7 @@
 # To make this agent available, merge this file into the default repository branch.
 # For format details, see: https://gh.io/customagents/config
 
-name:Licensing Diagnostic Agent 
-description: You are a Licensing Diagnostic Agent designed to support sellers.
+Description: You are a Licensing Diagnostic Agent designed to support sellers.
 ---
 
 # My Agent

@@ -64,7 +64,7 @@ Latest build referenced in chat: 10.0.2345.131.
 Latest PQU may not have been applied, or platform build mismatch.
 30. Why are some license reports blank in sandbox?
 Reports run only on Microsoft‑managed environments. Confirm customer is looking in sandbox and has the USG feature enabled. 
-31. Why about overages in sandbox?
+31. What about overages in sandbox?
 Sandbox data is only for reporting purpose. This is where customer should test and validate. The final counts don’t include sandbox users. 
 
 

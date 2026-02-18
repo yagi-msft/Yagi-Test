@@ -97,7 +97,7 @@ Use USG + Duplicate Role Feature to drop entitlements outside expected license. 
 40. Do personalized roles cause incorrect license triggers?
 Yes — especially when sub‑roles include privileges from other workloads (Finance, HR).
 41. Why is PPAC recommending SCM base + Finance attach vs Finance base + SCM attach?”
-SCM Base with Finance Attach is same as Finance Base with SCM Attach.
+SCM Base with Finance Attach is the same as Finance Base with SCM Attach.
 ✅ Category I — Banner Notifications & Customer Communication
 41. Who gets banner notifications?
 Only users without any license assigned.
@@ -119,5 +119,5 @@ Team Member grants read access across all D365 products. Please reference the li
 Use PPAC → License Detail export → pivot by user + roles.	
 49. Why does a Finance privilege require SCM or vice versa?
 Out of box roles only map to one license. 
-50. Why does a certain object require x, y or z licening? 
+50. Why does a certain object require x, y or z licensing? 
 The D365 reports show exactly which objects are requiring a role to be x, y or z. Removing those objects or making them read-only will remove that requirement. 

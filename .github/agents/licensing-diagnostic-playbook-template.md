@@ -1,5 +1,7 @@
+
 ---
-title: Licensing Diagnostic Playbook – <SCENARIO NAME>
+name: Licensing Diagnostic Playbook
+Description: This is the playbook to support the Agent.
 audience: seller
 agent_role: licensing_diagnostic
 intent: <INTENT_KEYWORD>

@@ -1,5 +1,7 @@
+---
 name: Additional Q&A
-description:This is the additional Q&A to be used with the Playbook
+description: This is the additional Q&A to be used with the Playbook
+---
 
 ✅ Category A — License Validation & Enforcement (Phase 1 / Phase 2)
 1. When do customers start seeing license enforcement banners?

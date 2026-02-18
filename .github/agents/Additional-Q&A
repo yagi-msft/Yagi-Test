@@ -120,4 +120,13 @@ Use PPAC → License Detail export → pivot by user + roles.
 49. Why does a Finance privilege require SCM or vice versa?
 Out of box roles only map to one license. 
 50. Why does a certain object require x, y or z licening? 
-The D365 reports show exactly which objects are requiring a role to be x, y or z. Removing those objects or making them read-only will remove that requirement. 
+The D365 reports show exactly which objects are requiring a role to be x, y or z. Removing those objects or making them read-only will remove that requirement.
+51. Why does my security role require SCM license instead of Team Members?
+Team Members licenses provide read-only access only. If your role includes create, update, or delete permissions on SCM objects (inventory, production, warehouse, etc.), it requires a full SCM license. Use USG License Summary to identify which specific objects are driving the requirement. You can use the "Duplicate with license filter" feature to create a Team Members-compliant read-only version.
+52. Can I modify an SCM role to work with Team Members license?
+Yes - by removing all write permissions (create, update, delete) and keeping only read permissions. Use the "Duplicate with license filter" feature (released Dec 2025) to automatically create a Team Members version. Any remaining write operations will require full SCM license.
+53. Why do multiple roles change my license requirement?
+License requirements are cumulative based on ALL roles assigned to a user. Even if individual roles seem appropriate, combining roles from different workloads can trigger higher licensing. Review all assigned roles and remove unnecessary assignments.
+54. What's the difference between Team Members and SCM license capabilities?
+Team Members: Read-only access across all D365 products, suitable for inquiry and reporting.
+SCM License: Full operational capabilities including create, update, delete on inventory, production, warehouse, planning, and other SCM processes. 

@@ -1,4 +1,3 @@
-
 ---
 name: Licensing Diagnostic Playbook
 description: This is the playbook to support the Agent.
